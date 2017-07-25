@@ -1,0 +1,10 @@
+When initializing a repository, .git folder is created to save the history of files in the repository through metadata file.
+
+git init - create git repository 
+git add - Add files in working directory to staging folder
+git status - provides the status of the git repository
+staging area - temporary area where files in the working directory to be added in the repository are stored temporarily.
+working directory - kind of local directory with files in it which we are trying to make it as git repository. 
+
+staging area is a temporary area where files in the working directory to be added in the repository are stored temporarily.
+Working directory is the kind of local directory with files in it which we are trying to make it as git repository. 
