@@ -1,0 +1,4 @@
+git log
+git diff
+git clone
+git checkout
