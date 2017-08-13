@@ -1,0 +1,11 @@
+"git remote with no arguments checks if the working directory has remote in github
+git remote
+
+To add remote in the github, execute the below command - origin is the name of the remote and we would get URL value when we create new repository in github
+git remote add origin URL
+
+"git remote -v" mentions the remote for the working directory 
+git remote -v
+
+"git push destination source" moves your changes to the remote. destination would be remote name and source would be name of the local branch that we would like to push
+git push origin master
