@@ -1,10 +1,26 @@
 When initializing a repository, .git folder is created to save the history of files in the repository through metadata file.
 
 git init - create git repository 
-git add - Add files in working directory to staging folder
+git add - Add files in working directory to staging area
 git status - provides the status of the git repository
 staging area - temporary area where files in the working directory to be added in the repository are stored temporarily.
 working directory - kind of local directory with files in it which we are trying to make it as git repository. 
 
 staging area is a temporary area where files in the working directory to be added in the repository are stored temporarily.
 Working directory is the kind of local directory with files in it which we are trying to make it as git repository. 
+
+git diff - shows updates between working directory and staging area.
+git diff --staged - shows updates between staging area and latest commit in a repository.
+git diff commit id1 commit id2 - shows updates between 2 commits in a repository.
+
+
+git branch - Shows the all the master and branches of the project with * representing the current working version
+git branch "branch name" - used to create a branch from the master
+git checkout "branch name" - Used to checkout the branch code into working directory
+
+If 2 branches or a branch has to be merged with master, first checkout into master version
+git checkout master
+Then do the merge by
+git checkout master "branch name'
+we can then delete the branch by following command. Note that this just removes the branch label and not entire branch code base.
+git branch -d "branch name"
